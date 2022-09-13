@@ -7,11 +7,32 @@
   height: fit-content;
   width: fit-content;
 }*/
-img {
+* {
+}
+
+.ironman-image {
+  max-width: 30%;
+  max-height: 30%;
+}
+.hulk-image {
+  max-width: 50%;
+  max-height: 50%;
+}
+.spiderman-image {
+  max-height: 40%;
+  max-width: 40%;
+}
+.strange-image {
+  max-height: 500px;
+}
+.orbit-wrapper {
+  max-height: fit-content;
+}
+
+.orbit-container {
   display: flex;
   justify-content: center;
 }
-.orbit-wrapper {
-  height: auto;
-  border-left: 50px;
+
+.orbit {
 }
