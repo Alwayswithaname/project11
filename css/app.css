@@ -1,0 +1,17 @@
+/* .orbit-image {
+  height: auto;
+  width: auto;
+}*/
+
+/*.ironman-image {
+  height: fit-content;
+  width: fit-content;
+}*/
+img {
+  display: flex;
+  justify-content: center;
+}
+.orbit-wrapper {
+  height: auto;
+  border-left: 50px;
+}
