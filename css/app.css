@@ -6,19 +6,22 @@
   max-height: 25%;
 }
 .hulk-image {
-  max-width: 30%;
-  max-height: 30%;
+  max-width: 45%;
+  max-height: 45%;
 }
 .spiderman-image {
-  max-height: 30%;
-  max-width: 30%;
+  max-height: 35%;
+  max-width: 35%;
 }
 .strange-image {
   max-height: 30%;
   max-width: 30%;
 }
 .orbit-wrapper {
-  max-height: fit-content;
+  background-image: url(https://clipartcraft.com/images/marvel-studios-logo-mcu-5.png);
+
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
 }
 
 .orbit-container {
@@ -41,4 +44,8 @@
 
 .dropdown-pane {
   margin-bottom: 300px;
+}
+
+.orbit-previous {
+  border: 50px;
 }
