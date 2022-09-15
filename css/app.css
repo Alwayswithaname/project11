@@ -1,5 +1,6 @@
 
 
+
 .ironman-image {
   max-width: 30%;
   max-height: 50%;
@@ -33,15 +34,48 @@
   justify-content: center;
 }
 
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  background-color: black;
+}
+
 #player {
   display: flex;
 }
+
 #games,
 #movie,
 #comics,
 #song ,
 #cartoon {
- align-content: flex-end;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+#song ,
+#cartoon { 
+  background-color: white;
+  color: black;
+}
+
+#games,
+#movie,
+#comics {
+background-color: #F0131E;
+  color: white;
+}
+
+#ironmanVideo,
+#spidermanVideo{
+  background-color: white;
+  color: black;
+}
+
+#drVideo,
+#hulkVideo {
+  background-color: #F0131E;
+  color: white;
+}

@@ -11,6 +11,8 @@ var buttonLink4 = document.querySelector("#song")
 var buttonLink5 = document.querySelector("#games")
 var ironmanBtn = document.querySelector("#ironmanVideo")
 var spidermanBtn = document.querySelector("#spidermanVideo")
+var hulkBtn = document.querySelector("#hulkVideo")
+var drBtn = document.querySelector("#drVideo")
 
     
 
@@ -54,7 +56,7 @@ var spidermanBtn = document.querySelector("#spidermanVideo")
                 player.destroy();
               }
             player = new YT.Player('player', {
-                height: '250',
+                height: '240',
                 width: '480',
                 videoId: vidid,
                 playerVars: {
@@ -77,22 +79,22 @@ var spidermanBtn = document.querySelector("#spidermanVideo")
         // cartoons
          buttonLink2.addEventListener("click", function() {
             console.log("click")
-            playThisVideo("zZG27hmi0YY") // ironman
+            playThisVideo("bCBMKIm8z08") // ironman
          })
         // movies
          buttonLink3.addEventListener("click", function() {
             console.log("click")
-            playThisVideo("clkKD3gFPAo") // ironman
+            playThisVideo("baf7iJW3Rv4") // ironman
          })
         // songs
          buttonLink4.addEventListener("click", function() {
             console.log("click")
-            playThisVideo("TxtvogVepSg") // ironman
+            playThisVideo("jNo3zmhXE9Y") // ironman
          })
         // games
          buttonLink5.addEventListener("click", function() {
             console.log("click")
-            playThisVideo("UJa1Gm1Qlvg") // ironman
+            playThisVideo("vcTN_3Ncvvo") // ironman
          })
          }
 
@@ -123,6 +125,62 @@ var spidermanBtn = document.querySelector("#spidermanVideo")
                 playThisVideo("UJa1Gm1Qlvg") // spiderman
              })
              }
+         function   hulkChecker() {
+         // comics
+            buttonLink1.addEventListener("click", function() {
+               console.log("click")
+               playThisVideo("JuRA_BKDmOs") // hulk
+                })
+         // cartoons
+            buttonLink2.addEventListener("click", function() {
+               console.log("click")
+               playThisVideo("u3NxKggj0gQ") // hulk
+                })
+         // movies
+            buttonLink3.addEventListener("click", function() {
+               console.log("click")
+               playThisVideo("6wy1FFE8Gjk") // hulk
+                })
+         // songs
+            buttonLink4.addEventListener("click", function() {
+               console.log("click")
+               playThisVideo("Dj26N10Ymlg") // hulk
+                })
+         // games
+            buttonLink5.addEventListener("click", function() {
+               console.log("click")
+               playThisVideo("S0R2CvHpkig") // hulk
+                })
+                }
+         function   drChecker() {
+         // comics
+            buttonLink1.addEventListener("click", function() {
+               console.log("click")
+               playThisVideo("ThiV6FfB3_o") // dr Strange
+               })
+         // cartoons
+            buttonLink2.addEventListener("click", function() {
+               console.log("click")
+               playThisVideo("u3NxKggj0gQ") // dr Strange
+               })
+         // movies
+            buttonLink3.addEventListener("click", function() {
+               console.log("click")
+               playThisVideo("c4J5ivvR6Uo") // dr Strange
+               })
+         // songs
+            buttonLink4.addEventListener("click", function() {
+               console.log("click")
+               playThisVideo("Tocl53YXn-0") // dr Strange
+               })
+         // games
+            buttonLink5.addEventListener("click", function() {
+               console.log("click")
+               playThisVideo("PwjOoNRimaI") // dr Strange
+               })
+               }       
+   
+
 
          window.onload = function() {
             playThisVideo("os2C0TdDphc")
@@ -131,29 +189,25 @@ var spidermanBtn = document.querySelector("#spidermanVideo")
          ironmanBtn.addEventListener("click", function() {
             console.log("click")
             ironmanChecker();
-            playThisVideo("fY7kIbkmnpc&t")
+            playThisVideo("8vgvAYXVCbE")
          })
 
          spidermanBtn.addEventListener("click", function() {
             console.log("click")
             spidermanChecker();
-            playThisVideo("fY7kIbkmnpc&t")
+            playThisVideo("aA1KHo6nc-0")
          })
 
          hulkBtn.addEventListener("click", function() {
             console.log("click")
-            spidermanChecker();
-            playThisVideo("fY7kIbkmnpc&t")
+            hulkChecker();
+            playThisVideo("6Jsq_dxxS4s")
          })
 
-         blackpantherBtn.addEventListener("click", function() {
+         drBtn.addEventListener("click", function() {
             console.log("click")
-            spidermanChecker();
-            playThisVideo("fY7kIbkmnpc&t")
+            drChecker();
+            playThisVideo("7jHHw6-j9MY")
          })
 
-         captinmarvelBtn.addEventListener("click", function() {
-            console.log("click")
-            spidermanChecker();
-            playThisVideo("fY7kIbkmnpc&t")
-         })
+         
