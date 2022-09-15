@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Marvel Cinematic Universe Character Guide</title>
     <link rel="stylesheet" href="css/foundation.css" />
-    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="./css/app.css" />
   </head>
   <div class="top-bar">
     <div class="top-bar-left">
       <ul class="dropdown menu" data-dropdown-menu>
-        <li class="menu-text">Site Title</li>
+        <li class="menu-text">Marvel Character Guide</li>
         <li>
           <a href="#">One</a>
           <ul class="menu vertical">
@@ -31,12 +31,7 @@
       </ul>
     </div>
   </div>
-  <div
-    class="orbit"
-    role="region"
-    aria-label="Favorite Space Pictures"
-    data-orbit
-  >
+  <div class="orbit" role="region" aria-label="Hero Pictures" data-orbit>
     <div class="orbit-wrapper">
       <div class="orbit-controls">
         <button class="orbit-previous">
@@ -53,6 +48,7 @@
               class="ironman-image"
               src="https://i0.wp.com/thefwoosh.com/wp-content/uploads/2018/07/19c78f3f0b5aa21318fc812a5578d560.jpg?resize=500%2C1043"
               alt="IronMan"
+              value="a"
             />
             <figcaption class="orbit-caption">Iron Man.</figcaption>
           </figure>
@@ -63,6 +59,7 @@
               class="hulk-image"
               src="https://vignette.wikia.nocookie.net/vsdebating/images/4/4f/HULK.png/revision/latest?cb=20170214001938"
               alt="The Hulk"
+              value="b"
             />
             <figcaption class="orbit-caption">The Incredible Hulk!</figcaption>
           </figure>
@@ -73,8 +70,9 @@
               class="spiderman-image"
               src="https://i.pinimg.com/originals/a9/2d/78/a92d784649fd7fbb5bdee3e2ccc792ef.jpg"
               alt="Space"
+              value="c"
             />
-            <figcaption class="orbit-caption">Encapsulating</figcaption>
+            <figcaption class="orbit-caption">Spider-Man</figcaption>
           </figure>
         </li>
         <li class="orbit-slide">
@@ -83,8 +81,9 @@
               class="strange-image"
               src="https://comicvine.gamespot.com/a/uploads/scale_medium/12/124259/7261353-rco022_1582718254.jpg"
               alt="Space"
+              value="d"
             />
-            <figcaption class="orbit-caption">Outta This World</figcaption>
+            <figcaption class="orbit-caption">Dr. Strange</figcaption>
           </figure>
         </li>
       </ul>
@@ -110,7 +109,7 @@
 
   <!--heading-->
 
-  <button class="button" type="button" data-toggle="example-dropdown-1">
+  <button class="button" type="button" id="ironmanVideo" data-toggle="example-dropdown-1">
     IronMan
   </button>
   <div
@@ -119,8 +118,8 @@
     data-dropdown
     data-hover="true"
     data-hover-pane="true"
-  >
-    Insert his bio, origins, movies, references etc.
+  > 
+    click here and one of the buttons below for videos related to the hero
   </div>
 
   <button class="button" type="button" data-toggle="example-dropdown-1">
@@ -136,7 +135,7 @@
     Insert his bio, origins, movies, references etc.
   </div>
 
-  <button class="button" type="button" data-toggle="example-dropdown-1">
+  <button class="button" type="button" id="spidermanVideo" data-toggle="example-dropdown-1">
     Spider-Man
   </button>
   <div
@@ -161,13 +160,26 @@
   >
     Insert his bio, origins, movies, references etc.
   </div>
-
+  
   <!--paragraphs-->
 
+
+  <div>
+    <div id="player"></div>
+
+
+      <button class="button" type="button" id="comics">comics</button>
+      <button class="button" type="button" id="cartoon">cartoon</button>
+      <button class="button" type="button" id="movie">movie</button>
+      <button class="button" type="button" id="song">song</button>
+      <button class="button" type="button" id="games">games</button>
+  </div>
   <body>
+    
+
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
-    <script src="js/app.js"></script>
+    <script src="./js/app.js"></script>
   </body>
 </html>
