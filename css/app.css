@@ -1,11 +1,6 @@
 * {
 }
 
-h1 {
-  display: flex;
-  justify-content: center;
-}
-
 .ironman-image {
   max-width: 30%;
   max-height: 50%;
@@ -84,4 +79,9 @@ background-color: #F0131E;
 #hulkVideo {
   background-color: #F0131E;
   color: white;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
 }
