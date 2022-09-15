@@ -2,19 +2,20 @@
 }
 
 .ironman-image {
-  max-width: 30%;
-  max-height: 50%;
+  max-width: 25%;
+  max-height: 25%;
 }
 .hulk-image {
-  max-width: 50%;
-  max-height: 50%;
+  max-width: 30%;
+  max-height: 30%;
 }
 .spiderman-image {
-  max-height: 40%;
-  max-width: 40%;
+  max-height: 30%;
+  max-width: 30%;
 }
 .strange-image {
-  max-height: 500px;
+  max-height: 30%;
+  max-width: 30%;
 }
 .orbit-wrapper {
   max-height: fit-content;
@@ -24,12 +25,20 @@
   display: flex;
   justify-content: center;
 }
+.orbit-figure {
+}
 
 .orbit-caption {
   display: flex;
   justify-content: center;
+  max-width: fit-content;
+  max-height: fit-content;
 }
 .orbit-figure {
   display: flex;
   justify-content: center;
+}
+
+.dropdown-pane {
+  margin-bottom: 300px;
 }
