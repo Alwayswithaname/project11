@@ -32,6 +32,7 @@
 .orbit-figure {
   display: flex;
   justify-content: center;
+
 }
 
 .center {
@@ -39,6 +40,7 @@
   justify-content: center;
   align-items: stretch;
   background-color: black;
+
 }
 
 #player {
