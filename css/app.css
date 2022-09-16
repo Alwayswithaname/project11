@@ -32,4 +32,59 @@
 .orbit-figure {
   display: flex;
   justify-content: center;
+
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  background-color: black;
+
+}
+
+#player {
+  display: flex;
+}
+
+#games,
+#movie,
+#comics,
+#song ,
+#cartoon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#song ,
+#cartoon { 
+  background-color: white;
+  color: black;
+
+}
+
+#games,
+#movie,
+#comics {
+background-color: #F0131E;
+  color: white;
+}
+
+#ironmanVideo,
+#spidermanVideo{
+  background-color: white;
+  color: black;
+}
+
+#drVideo,
+#hulkVideo {
+  background-color: #F0131E;
+  color: white;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
 }
