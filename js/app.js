@@ -1,6 +1,11 @@
 $(document).foundation();
 
 
+localStorage.setItem("value1", 123);
+localStorage.setItem("value2", "abc");
+localStorage.setItem("state", JSON.stringify({ a: 1, b: 2, c: 3 }));
+
+
 
 var playerEl = document.querySelector("#player")
 var videoId = document.querySelector("#characterId")
@@ -161,7 +166,7 @@ var drBtn = document.querySelector("#drVideo")
          // cartoons
             buttonLink2.addEventListener("click", function() {
                console.log("click")
-               playThisVideo("u3NxKggj0gQ") // dr Strange
+               playThisVideo("ceflg92lNRI") // dr Strange
                })
          // movies
             buttonLink3.addEventListener("click", function() {
@@ -185,29 +190,28 @@ var drBtn = document.querySelector("#drVideo")
          window.onload = function() {
             playThisVideo("os2C0TdDphc")
          }
-
+         // ironman
          ironmanBtn.addEventListener("click", function() {
             console.log("click")
             ironmanChecker();
             playThisVideo("8vgvAYXVCbE")
          })
-
+         // spiderman
          spidermanBtn.addEventListener("click", function() {
             console.log("click")
             spidermanChecker();
             playThisVideo("aA1KHo6nc-0")
          })
-
+         // hulk
          hulkBtn.addEventListener("click", function() {
             console.log("click")
             hulkChecker();
             playThisVideo("6Jsq_dxxS4s")
          })
-
+         // dr strange
          drBtn.addEventListener("click", function() {
             console.log("click")
             drChecker();
             playThisVideo("7jHHw6-j9MY")
          })
-
          
