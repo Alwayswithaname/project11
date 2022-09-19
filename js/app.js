@@ -61,8 +61,8 @@ var drBtn = document.querySelector("#drVideo")
                 player.destroy();
               }
             player = new YT.Player('player', {
-                height: '240',
-                width: '480',
+                height: '480',
+                width: '640',
                 videoId: vidid,
                 playerVars: {
                   'playsinline': 1
