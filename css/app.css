@@ -115,6 +115,12 @@ h1 {
 
 #comicPg {
   background-color: #F0131E;
+  margin: 20px;
 }
 
 
+#quick {
+  display: flex;
+  align-items: center;
+  background-color: #F0131E;
+}
